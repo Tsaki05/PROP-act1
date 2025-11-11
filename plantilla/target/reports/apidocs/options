@@ -1,0 +1,22 @@
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'/home/santer/Documentos/PROP/plantilla/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/santer/Documentos/PROP/plantilla/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'ac1 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'ac1 1.0-SNAPSHOT API'

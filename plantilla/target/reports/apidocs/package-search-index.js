@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"edu.epsevg.prop.ac1"},{"l":"edu.epsevg.prop.ac1.cerca"},{"l":"edu.epsevg.prop.ac1.cerca.heuristica"},{"l":"edu.epsevg.prop.ac1.model"},{"l":"edu.epsevg.prop.ac1.resultat"},{"l":"edu.epsevg.prop.ac1.utils"}];updateSearchResults();
