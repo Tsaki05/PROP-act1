@@ -1,3 +1,4 @@
+
 package edu.epsevg.prop.ac1.cerca;
 
 import edu.epsevg.prop.ac1.model.*;
@@ -79,6 +80,7 @@ public class CercaBFS extends Cerca {
         
         // No s'ha trobat solució
         rc.setCami(null);
+<<<<<<< HEAD
     }
     
     /**
@@ -110,3 +112,36 @@ public class CercaBFS extends Cerca {
         return false;
     }
 }
+=======
+    }
+    
+    /**
+     * Reconstrueix el camí des del node final fins a l'inicial
+     */
+    private List<Moviment> reconstruirCami(Node nodeFinal) {
+        List<Moviment> cami = new ArrayList<>();
+        Node actual = nodeFinal;
+        
+        while (actual.pare != null) {
+            cami.add(0, actual.accio);
+            actual = actual.pare;
+        }
+        
+        return cami;
+    }
+    
+    /**
+     * Comprova si un estat està repetit dins del camí actual (branca)
+     */
+    private boolean estaDinsDelCami(Node node, Mapa estat) {
+        Node actual = node;
+        while (actual != null) {
+            if (actual.estat.equals(estat)) {
+                return true;
+            }
+            actual = actual.pare;
+        }
+        return false;
+    }
+}
+>>>>>>> a8e5a21b3018ad839027d595812fe63132bd8745
