@@ -24,7 +24,7 @@ public class CercaIDS extends Cerca {
         this.rc = rc;
         
         // Iterative Deepening: incrementem el límit de profunditat
-        for (int limit = 0; limit < Integer.MAX_VALUE; limit++) {
+        for (int limit = 0; limit < 50; limit++) {
             this.limitActual = limit;
             this.LNT = usarLNT ? new HashMap<>() : null;
             
