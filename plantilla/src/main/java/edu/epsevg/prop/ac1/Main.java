@@ -83,7 +83,7 @@ public class Main {
             c.ferCerca(mapa, r);      
             
             System.out.println(">SOLUCIO:"+r.getCami());
-                       
+		
         } catch(OutOfMemoryError ooem){
             
             error = "OUT OF MEMORY ERROR";
